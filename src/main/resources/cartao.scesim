@@ -54,7 +54,7 @@
           <factAlias>compra</factAlias>
           <expressionAlias>cpf</expressionAlias>
           <genericTypes/>
-          <columnWidth>222.25</columnWidth>
+          <columnWidth>254.25</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
         </FactMapping>
         <FactMapping>
@@ -78,7 +78,7 @@
           <factAlias>compra</factAlias>
           <expressionAlias>local</expressionAlias>
           <genericTypes/>
-          <columnWidth>222.25</columnWidth>
+          <columnWidth>254.25</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
         </FactMapping>
         <FactMapping>
@@ -102,7 +102,7 @@
           <factAlias>compra</factAlias>
           <expressionAlias>valor</expressionAlias>
           <genericTypes/>
-          <columnWidth>222.25</columnWidth>
+          <columnWidth>254.25</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
         </FactMapping>
         <FactMapping>
@@ -123,7 +123,7 @@
           <factAlias>validacao</factAlias>
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
-          <columnWidth>222.25</columnWidth>
+          <columnWidth>254.25</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
         </FactMapping>
       </factMappings>
@@ -324,7 +324,7 @@
               <name>1|4</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
