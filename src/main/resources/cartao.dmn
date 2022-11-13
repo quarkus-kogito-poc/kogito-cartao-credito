@@ -93,7 +93,7 @@
               <dmn:text>"riodejaneiro"</dmn:text>
             </dmn:inputEntry>
             <dmn:inputEntry id="_E5E1065C-ECEB-4DB4-815F-3F9E0AE3256C">
-              <dmn:text>&gt;=2000</dmn:text>
+              <dmn:text>&gt;=5000</dmn:text>
             </dmn:inputEntry>
             <dmn:outputEntry id="_C2DD7E24-7CC2-4B66-8A48-CB1308EFEC3A">
               <dmn:text>true</dmn:text>
@@ -110,7 +110,7 @@
               <dmn:text>"riodejaneiro"</dmn:text>
             </dmn:inputEntry>
             <dmn:inputEntry id="_2D4F5771-E938-4FC7-9196-9EE85D56919D">
-              <dmn:text>&lt;2000</dmn:text>
+              <dmn:text>&lt;5000</dmn:text>
             </dmn:inputEntry>
             <dmn:outputEntry id="_4846AEBB-8EC3-40F1-856D-F313F7227CA7">
               <dmn:text>false</dmn:text>
