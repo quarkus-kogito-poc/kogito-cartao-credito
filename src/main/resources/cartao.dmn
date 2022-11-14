@@ -73,13 +73,30 @@
               <dmn:text>false</dmn:text>
             </dmn:inputEntry>
             <dmn:inputEntry id="_1E94C263-C8D4-41E3-9A9A-637B475019AF">
-              <dmn:text>"saopaulo","salvador"</dmn:text>
+              <dmn:text>"saopaulo"</dmn:text>
             </dmn:inputEntry>
             <dmn:inputEntry id="_D5CEF932-EFED-449F-9624-F88BD83FC3BE">
               <dmn:text>-</dmn:text>
             </dmn:inputEntry>
             <dmn:outputEntry id="_48E7BC83-4BA1-40D8-8A8F-FF675420234E">
               <dmn:text>false</dmn:text>
+            </dmn:outputEntry>
+            <dmn:annotationEntry>
+              <dmn:text/>
+            </dmn:annotationEntry>
+          </dmn:rule>
+          <dmn:rule id="_7F4C9D79-B71E-4B64-9EDD-0701EBE261F7">
+            <dmn:inputEntry id="_7C7E35CF-276E-45E5-98BE-CBF724EB2C5A">
+              <dmn:text>false</dmn:text>
+            </dmn:inputEntry>
+            <dmn:inputEntry id="_EC59F82E-8C21-4B24-8CAE-D0C375E8B661">
+              <dmn:text>"salvador"</dmn:text>
+            </dmn:inputEntry>
+            <dmn:inputEntry id="_471DE48D-31ED-48A6-8F9E-0FE7F28E5A3F">
+              <dmn:text>-</dmn:text>
+            </dmn:inputEntry>
+            <dmn:outputEntry id="_9D437874-A1A5-417C-B98D-514FD1F6714B">
+              <dmn:text>true</dmn:text>
             </dmn:outputEntry>
             <dmn:annotationEntry>
               <dmn:text/>
