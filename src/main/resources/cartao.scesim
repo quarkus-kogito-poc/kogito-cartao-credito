@@ -874,7 +874,7 @@
     <type>DMN</type>
     <dmnNamespace>https://kiegroup.org/dmn/_175283FD-DA57-4E39-9B1A-DFDE0FEED45C</dmnNamespace>
     <dmnName>cartao</dmnName>
-    <skipFromBuild>false</skipFromBuild>
+    <skipFromBuild>true</skipFromBuild>
     <stateless>false</stateless>
   </settings>
   <imports>
