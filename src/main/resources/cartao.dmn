@@ -62,7 +62,7 @@
               <dmn:text>-</dmn:text>
             </dmn:inputEntry>
             <dmn:outputEntry id="_D82300EE-B986-4746-9495-301D532FA0CC">
-              <dmn:text>true</dmn:text>
+              <dmn:text>false</dmn:text>
             </dmn:outputEntry>
             <dmn:annotationEntry>
               <dmn:text/>
@@ -96,7 +96,7 @@
               <dmn:text>&gt;=5000</dmn:text>
             </dmn:inputEntry>
             <dmn:outputEntry id="_C2DD7E24-7CC2-4B66-8A48-CB1308EFEC3A">
-              <dmn:text>true</dmn:text>
+              <dmn:text>false</dmn:text>
             </dmn:outputEntry>
             <dmn:annotationEntry>
               <dmn:text/>
@@ -130,7 +130,7 @@
               <dmn:text>-</dmn:text>
             </dmn:inputEntry>
             <dmn:outputEntry id="_9A971DFE-C202-472E-AE86-4FB53557C30E">
-              <dmn:text>true</dmn:text>
+              <dmn:text>false</dmn:text>
             </dmn:outputEntry>
             <dmn:annotationEntry>
               <dmn:text/>
