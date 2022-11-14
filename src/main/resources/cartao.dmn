@@ -130,7 +130,7 @@
               <dmn:text>-</dmn:text>
             </dmn:inputEntry>
             <dmn:outputEntry id="_9A971DFE-C202-472E-AE86-4FB53557C30E">
-              <dmn:text>false</dmn:text>
+              <dmn:text>true</dmn:text>
             </dmn:outputEntry>
             <dmn:annotationEntry>
               <dmn:text/>
