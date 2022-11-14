@@ -28,40 +28,40 @@
     <dmn:context id="_2C26CD13-E10D-4727-A82E-06730B1016C2">
       <dmn:contextEntry>
         <dmn:variable id="_AECBEEF5-DC8B-4981-A60A-59F490CEBFE3" name="suspectCPFResult" typeRef="boolean"/>
-        <dmn:literalExpression id="_AECBEEF5-DC8B-4981-A60A-59F490CEBFE3">
+        <dmn:literalExpression id="_527D5CFD-C012-4C7A-A847-85DF3AD47A55">
           <dmn:text>suspectCPF(compra.cpf)</dmn:text>
         </dmn:literalExpression>
       </dmn:contextEntry>
       <dmn:contextEntry>
         <dmn:decisionTable id="_6559F58C-0052-4588-A120-6996909B74EC" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
           <dmn:input id="_19516EA4-5107-4D15-BB7B-3B1EB64E492F">
-            <dmn:inputExpression id="_7E335CC1-5190-47FF-B8D0-2FA4C83778FC" typeRef="boolean">
+            <dmn:inputExpression id="_375ED62E-E0B7-4DC4-B118-2DB84416FF99" typeRef="boolean">
               <dmn:text>suspectCPFResult</dmn:text>
             </dmn:inputExpression>
           </dmn:input>
           <dmn:input id="_89DCAF42-9564-4FCE-8930-111079409538">
-            <dmn:inputExpression id="_2C8827B3-7B6C-4D5B-A967-7F230EF6432A" typeRef="string">
+            <dmn:inputExpression id="_B45B1EBA-958F-4ECE-8B82-E4360B35E990" typeRef="string">
               <dmn:text>compra.local</dmn:text>
             </dmn:inputExpression>
           </dmn:input>
           <dmn:input id="_27C3326A-C6E9-4BCF-A84D-40807354E32D">
-            <dmn:inputExpression id="_984550C6-85DC-43F0-B9AC-9B72E4290AA2" typeRef="number">
+            <dmn:inputExpression id="_12C4ED46-5639-4E08-B43B-7045CC9D5EC8" typeRef="number">
               <dmn:text>compra.valor</dmn:text>
             </dmn:inputExpression>
           </dmn:input>
           <dmn:output id="_16847F0D-684E-469F-9E71-6B0BCC3F3CD6"/>
           <dmn:annotation name="annotation-1"/>
           <dmn:rule id="_F76C5164-19DF-40F3-A626-FC5593A936DB">
-            <dmn:inputEntry id="_8A6DC04E-15F6-494F-861C-8E10A7158848">
+            <dmn:inputEntry id="_549ECAF6-9ACB-48DC-A117-7003ACC1B979">
               <dmn:text>true</dmn:text>
             </dmn:inputEntry>
-            <dmn:inputEntry id="_B03D732C-B5DA-497E-AD2C-4A702DBE5357">
+            <dmn:inputEntry id="_AF8C2C1A-CFC2-4E89-97CC-A0388A5045C5">
               <dmn:text>-</dmn:text>
             </dmn:inputEntry>
-            <dmn:inputEntry id="_2A932889-4821-41F5-AE47-9DFB75556047">
+            <dmn:inputEntry id="_903B6E62-0B35-4A1B-BBDA-D283C46E2FFE">
               <dmn:text>-</dmn:text>
             </dmn:inputEntry>
-            <dmn:outputEntry id="_60CC2CAE-A3C0-487C-B87E-557223D5083B">
+            <dmn:outputEntry id="_D82300EE-B986-4746-9495-301D532FA0CC">
               <dmn:text>true</dmn:text>
             </dmn:outputEntry>
             <dmn:annotationEntry>
@@ -69,16 +69,16 @@
             </dmn:annotationEntry>
           </dmn:rule>
           <dmn:rule id="_28BB239F-03A7-4FB1-B414-71577D877B52">
-            <dmn:inputEntry id="_C24E5EFF-A78A-4900-9935-421EF0A62591">
+            <dmn:inputEntry id="_181861BE-AF91-4949-A5F3-A5D198AB9A20">
               <dmn:text>false</dmn:text>
             </dmn:inputEntry>
-            <dmn:inputEntry id="_BE69073E-10E0-4974-AF96-54A426BD0ED8">
-              <dmn:text>"saopaulo", "salvador"</dmn:text>
+            <dmn:inputEntry id="_1E94C263-C8D4-41E3-9A9A-637B475019AF">
+              <dmn:text>"saopaulo","salvador"</dmn:text>
             </dmn:inputEntry>
-            <dmn:inputEntry id="_CE998D4B-A1B5-41B2-BE16-BEFA302EFE02">
+            <dmn:inputEntry id="_D5CEF932-EFED-449F-9624-F88BD83FC3BE">
               <dmn:text>-</dmn:text>
             </dmn:inputEntry>
-            <dmn:outputEntry id="_48108737-EFAC-4762-9E07-E0F57E001B4F">
+            <dmn:outputEntry id="_48E7BC83-4BA1-40D8-8A8F-FF675420234E">
               <dmn:text>false</dmn:text>
             </dmn:outputEntry>
             <dmn:annotationEntry>
@@ -86,16 +86,16 @@
             </dmn:annotationEntry>
           </dmn:rule>
           <dmn:rule id="_040D4D8B-A47B-42CD-AD65-D25513C6E05B">
-            <dmn:inputEntry id="_4ADA7645-E116-42A2-98E5-DC955F0C0F10">
+            <dmn:inputEntry id="_BDF705D3-77C6-466C-81DE-7075A59C28B7">
               <dmn:text>false</dmn:text>
             </dmn:inputEntry>
-            <dmn:inputEntry id="_53902578-2325-441C-84A3-F2A6C2465AC3">
+            <dmn:inputEntry id="_90474C24-50AA-4271-96CF-C762EB567366">
               <dmn:text>"riodejaneiro"</dmn:text>
             </dmn:inputEntry>
-            <dmn:inputEntry id="_6EE77723-F105-4794-BCC0-1A216CF39E6C">
+            <dmn:inputEntry id="_E5E1065C-ECEB-4DB4-815F-3F9E0AE3256C">
               <dmn:text>&gt;=5000</dmn:text>
             </dmn:inputEntry>
-            <dmn:outputEntry id="_CA0361EE-5774-4EE7-A326-C50CC6EC92CA">
+            <dmn:outputEntry id="_C2DD7E24-7CC2-4B66-8A48-CB1308EFEC3A">
               <dmn:text>true</dmn:text>
             </dmn:outputEntry>
             <dmn:annotationEntry>
@@ -103,16 +103,16 @@
             </dmn:annotationEntry>
           </dmn:rule>
           <dmn:rule id="_28910F0D-4D3E-485C-83CA-BDBB6A2903EE">
-            <dmn:inputEntry id="_565B18C8-AE97-41A7-99D9-F52BCD460DA1">
+            <dmn:inputEntry id="_5B610F94-D44F-4929-ADC7-868E7BC87550">
               <dmn:text>false</dmn:text>
             </dmn:inputEntry>
-            <dmn:inputEntry id="_C7EC80D9-67FC-4CC6-9FC7-0C33609ACDC6">
+            <dmn:inputEntry id="_B5874AFE-4175-42E3-8E27-B5804E38DDA7">
               <dmn:text>"riodejaneiro"</dmn:text>
             </dmn:inputEntry>
-            <dmn:inputEntry id="_395AE22E-0A99-4F6E-A3C6-4775E087827B">
+            <dmn:inputEntry id="_2D4F5771-E938-4FC7-9196-9EE85D56919D">
               <dmn:text>&lt;5000</dmn:text>
             </dmn:inputEntry>
-            <dmn:outputEntry id="_CF8642FC-F243-4B87-B51C-BA2DF50CBD03">
+            <dmn:outputEntry id="_4846AEBB-8EC3-40F1-856D-F313F7227CA7">
               <dmn:text>false</dmn:text>
             </dmn:outputEntry>
             <dmn:annotationEntry>
@@ -120,16 +120,16 @@
             </dmn:annotationEntry>
           </dmn:rule>
           <dmn:rule id="_E8D12B22-C91F-4B9C-A8E7-E504FE5BD6BA">
-            <dmn:inputEntry id="_54CF8871-9D75-4D80-8C29-73FF60210715">
+            <dmn:inputEntry id="_DF448BEE-3B02-4A39-B705-BDEB7CF89B98">
               <dmn:text>false</dmn:text>
             </dmn:inputEntry>
-            <dmn:inputEntry id="_531C5DF9-0B26-4D1E-96B0-F92C2C486A15">
+            <dmn:inputEntry id="_9F106B77-FB0A-4A31-B989-387157969852">
               <dmn:text>"recife"</dmn:text>
             </dmn:inputEntry>
-            <dmn:inputEntry id="_1B2C33FF-72A4-472C-8603-43EBEE8EC89B">
+            <dmn:inputEntry id="_9CB351BE-4A5C-40FF-8A00-A3962EAD0955">
               <dmn:text>-</dmn:text>
             </dmn:inputEntry>
-            <dmn:outputEntry id="_B87AD97C-FC35-49B2-ADF2-A262A8C34F13">
+            <dmn:outputEntry id="_9A971DFE-C202-472E-AE86-4FB53557C30E">
               <dmn:text>true</dmn:text>
             </dmn:outputEntry>
             <dmn:annotationEntry>
@@ -251,18 +251,18 @@
           <kie:ComponentWidths dmnElementRef="_2C26CD13-E10D-4727-A82E-06730B1016C2">
             <kie:width>50</kie:width>
             <kie:width>138</kie:width>
-            <kie:width>1147</kie:width>
+            <kie:width>1004</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_AECBEEF5-DC8B-4981-A60A-59F490CEBFE3">
-            <kie:width>1147</kie:width>
+          <kie:ComponentWidths dmnElementRef="_527D5CFD-C012-4C7A-A847-85DF3AD47A55">
+            <kie:width>1004</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_6559F58C-0052-4588-A120-6996909B74EC">
             <kie:width>50</kie:width>
+            <kie:width>179</kie:width>
+            <kie:width>322</kie:width>
             <kie:width>100</kie:width>
-            <kie:width>229</kie:width>
-            <kie:width>100</kie:width>
-            <kie:width>100</kie:width>
-            <kie:width>548</kie:width>
+            <kie:width>195</kie:width>
+            <kie:width>138</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_C70A5BE7-047C-4BF7-9A1E-E132DF6E5755">
             <kie:width>50</kie:width>
