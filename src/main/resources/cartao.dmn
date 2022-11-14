@@ -79,7 +79,7 @@
               <dmn:text>-</dmn:text>
             </dmn:inputEntry>
             <dmn:outputEntry id="_48E7BC83-4BA1-40D8-8A8F-FF675420234E">
-              <dmn:text>false</dmn:text>
+              <dmn:text>true</dmn:text>
             </dmn:outputEntry>
             <dmn:annotationEntry>
               <dmn:text/>
